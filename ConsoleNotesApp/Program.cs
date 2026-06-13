@@ -66,6 +66,10 @@ class Program
             Console.WriteLine("No notes yet");
             return;
         }
+
+        Console.WriteLine("Notes: ");
+        foreach (var n in notes)
+            Console.WriteLine("-" + n);
     }
 
 }
