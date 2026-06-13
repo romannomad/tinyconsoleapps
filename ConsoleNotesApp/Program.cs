@@ -20,9 +20,19 @@ class Program
 
             switch (choice)
             {
+                case "1":
+                    AddNote();
+                    break;
+
+                case "2":
+                    ListNotes();
+                    break;
+
 
             }
 
 
 
         }
+    }
+}
