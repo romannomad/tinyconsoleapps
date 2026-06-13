@@ -52,4 +52,12 @@ class Program
         Console.WriteLine("Saved.");
     }
 
+    static void ListNotes()
+    {
+        if (File.Exists(notesFilePath))
+        {
+
+        }
+    }
+
 }
