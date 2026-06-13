@@ -72,4 +72,11 @@ class Program
             Console.WriteLine("-" + n);
     }
 
+    static void DeleteNotes()
+    {
+        if (File.Exists(notesFilePath))
+        {
+            File.Delete(notesFilePath);
+        }
+    }
 }
