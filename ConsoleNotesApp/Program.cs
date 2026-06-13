@@ -78,5 +78,6 @@ class Program
         {
             File.Delete(notesFilePath);
         }
+        Console.WriteLine("All notes deleted");
     }
 }
