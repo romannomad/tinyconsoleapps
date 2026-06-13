@@ -43,4 +43,13 @@ class Program
             Console.WriteLine();
         }
     }
+
+    static void AddNote()
+    {
+        Console.Write("Enter your note: ");
+        var note = Console.ReadLine();
+        File.AppendAllText(notesFile, note + Environment.NewLine);
+        Console.WriteLine("Saved.");
+    }
+
 }
