@@ -28,6 +28,12 @@ class Program
                     ListNotes();
                     break;
 
+                case "3":
+                    DeleteNotes();
+                    break;
+
+
+
 
             }
 
