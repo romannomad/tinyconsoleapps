@@ -32,6 +32,13 @@ class Program
                     DeleteNotes();
                     break;
 
+                case "4":
+                    return;
+
+                default:
+                    Console.WriteLine("Invalid choice. Please try again.");
+                    break;
+
 
 
 
