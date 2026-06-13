@@ -48,7 +48,7 @@ class Program
     {
         Console.Write("Enter your note: ");
         var note = Console.ReadLine();
-        File.AppendAllText(notesFile, note + Environment.NewLine);
+        File.AppendAllText(notesFilePath, note + Environment.NewLine);
         Console.WriteLine("Saved.");
     }
 
