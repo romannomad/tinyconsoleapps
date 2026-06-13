@@ -56,7 +56,8 @@ class Program
     {
         if (File.Exists(notesFilePath))
         {
-
+            Console.WriteLine("No notes yet");
+            return;
         }
     }
 
