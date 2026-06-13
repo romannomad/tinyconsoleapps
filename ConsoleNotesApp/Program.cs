@@ -59,6 +59,13 @@ class Program
             Console.WriteLine("No notes yet");
             return;
         }
+
+        var notes = File.ReadAllLines(notesFilePath);
+        if (notes.Length == 0)
+        {
+            Console.WriteLine("No notes yet");
+            return;
+        }
     }
 
 }
