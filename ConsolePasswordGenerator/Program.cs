@@ -23,4 +23,11 @@ class Program
         Console.Write(message);
         return int.Parse(Console.ReadLine()!);
     }
+
+    static bool AskBool(string message)
+    {
+        Console.Write(message);
+        string input = Console.ReadLine()!.Trim().ToLower();
+        return input == "y" || input == "yes";
+    }
 }
