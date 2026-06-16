@@ -48,8 +48,10 @@ class Program
         if (pool.Length == 0)
         {
             throw new Exception("At least one character type must be included.");
-
         }
+
+        StringBuilder password = new();
+        using var rng = RandomNumberGenerator.Create();
 
 
     }
