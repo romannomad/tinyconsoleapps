@@ -14,6 +14,8 @@ class Program
         bool includeUpper = AskBool("Include uppercase letters (y/n): ");
         bool includeLower = AskBool("Include lowercase letters (y/n): ");
 
+        string password = GeneratePassword(length, includeNumbers, includeSymbols, includeUpper, includeLower);
+
 
     }
 }
