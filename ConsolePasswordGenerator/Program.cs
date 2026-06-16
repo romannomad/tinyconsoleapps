@@ -18,4 +18,9 @@ class Program
         Console.WriteLine($"\nGenerated password: {password}");
 
     }
+    static int AskInt(string message)
+    {
+        Console.Write(message);
+        return int.Parse(Console.ReadLine()!);
+    }
 }
