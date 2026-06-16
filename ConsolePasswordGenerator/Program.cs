@@ -45,5 +45,12 @@ class Program
         if (upper) pool.Append(upperChars);
         if (lower) pool.Append(lowerChars);
 
+        if (pool.Length == 0)
+        {
+            throw new Exception("At least one character type must be included.");
+
+        }
+
+
     }
 }
