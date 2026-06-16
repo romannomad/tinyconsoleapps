@@ -40,6 +40,10 @@ class Program
 
         StringBuilder pool = new();
 
+        if (numbers) pool.Append(digits);
+        if (symbols) pool.Append(specialChars);
+
+
 
     }
 }
