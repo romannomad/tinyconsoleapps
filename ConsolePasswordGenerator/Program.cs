@@ -43,8 +43,7 @@ class Program
         if (numbers) pool.Append(digits);
         if (symbols) pool.Append(specialChars);
         if (upper) pool.Append(upperChars);
-
-
+        if (lower) pool.Append(lowerChars);
 
     }
 }
