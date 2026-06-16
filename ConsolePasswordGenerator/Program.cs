@@ -30,4 +30,9 @@ class Program
         string input = Console.ReadLine()!.Trim().ToLower();
         return input == "y" || input == "yes";
     }
+
+    static string GeneratePassword(int length, bool numbers, bool symbols, bool upper, bool lower)
+    {
+
+    }
 }
