@@ -8,5 +8,7 @@ class Program
     {
         Console.WriteLine("=== Password Generator ===");
 
+        int length = AskInt("Password length (e.g. 12): ");
+
     }
 }
