@@ -56,6 +56,9 @@ class Program
         for (int i = 0; i < length; i++)
         {
             byte[] randomByte = new byte[1];
+            rng.GetBytes(randomByte);
+            int index = randomByte[0] % pool.Length;
+            password.Append(pool[index]);
 
 
         }
