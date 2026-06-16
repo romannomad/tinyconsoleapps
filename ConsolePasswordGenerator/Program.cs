@@ -53,6 +53,12 @@ class Program
         StringBuilder password = new();
         using var rng = RandomNumberGenerator.Create();
 
+        for (int i = 0; i < length; i++)
+        {
+            byte[] randomByte = new byte[1];
+
+
+        }
 
     }
 }
