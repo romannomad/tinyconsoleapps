@@ -60,8 +60,8 @@ class Program
             int index = randomByte[0] % pool.Length;
             password.Append(pool[index]);
 
-
         }
 
+        return password.ToString();
     }
 }
