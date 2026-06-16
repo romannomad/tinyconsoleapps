@@ -38,6 +38,7 @@ class Program
         string upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         string lowerChars = "abcdefghijklmnopqrstuvwxyz";
 
+        StringBuilder pool = new();
 
 
     }
