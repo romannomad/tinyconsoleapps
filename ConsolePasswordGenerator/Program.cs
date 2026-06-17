@@ -19,7 +19,7 @@ class Program
 
 
         Console.WriteLine($"\nGenerated password: {password}");
-
+        Console.WriteLine($"Strength: {strength}");
     }
     static int AskInt(string message)
     {
