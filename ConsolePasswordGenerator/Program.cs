@@ -80,8 +80,9 @@ class Program
             <= 2 => "Weak",
             3 or 4 => "Medium",
             5 => "Strong",
+            _ => "Very Strong"
 
-        }
+        };
 
     }
 
