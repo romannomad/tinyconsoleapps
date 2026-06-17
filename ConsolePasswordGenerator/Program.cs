@@ -15,6 +15,9 @@ class Program
         bool includeLower = AskBool("Include lowercase letters (y/n): ");
 
         string password = GeneratePassword(length, includeNumbers, includeSymbols, includeUpper, includeLower);
+        string strength = CheckStrength(password);
+
+
         Console.WriteLine($"\nGenerated password: {password}");
 
     }
