@@ -64,4 +64,11 @@ class Program
 
         return password.ToString();
     }
+
+    static string CheckStrength(string password)
+    {
+        int score = 0;
+        if (password.Length >= 8) score++;
+    }
+
 }
