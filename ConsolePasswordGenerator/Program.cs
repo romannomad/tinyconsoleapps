@@ -75,6 +75,14 @@ class Program
         if (password.Any(char.IsLower)) score++;
         if (password.Any(ch => "!@#$%^&*()_-+=<>?".Contains(ch))) score++;
 
+        return score switch
+        {
+            <= 2 => "Weak",
+            3 or 4 => "Medium",
+            5 => "Strong",
+
+        }
+
     }
 
 }
