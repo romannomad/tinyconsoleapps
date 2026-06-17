@@ -70,6 +70,7 @@ class Program
         int score = 0;
         if (password.Length >= 8) score++;
         if (password.Length >= 12) score++;
+        if (password.Any(char.IsDigit)) score++;
 
     }
 
