@@ -91,6 +91,15 @@ class Program
 
     static void PrintStrengthColored(string strength)
     {
+        switch (strength)
+        {
+            case "Weak":
+                Console.ForegroundColor = ConsoleColor.Red;
+                break;
+            case "Medium":
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                break;
+        }
 
     }
 
