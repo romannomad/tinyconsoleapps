@@ -107,6 +107,9 @@ class Program
                 break;
         }
 
+        Console.WriteLine($"Strength: {strength}");
+        Console.ResetColor();
+
     }
 
 }
