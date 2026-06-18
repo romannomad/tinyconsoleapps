@@ -89,4 +89,9 @@ class Program
 
     }
 
+    static void PrintStrengthColored(string strength)
+    {
+
+    }
+
 }
