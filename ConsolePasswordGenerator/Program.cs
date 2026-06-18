@@ -99,6 +99,12 @@ class Program
             case "Medium":
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 break;
+            case "Strong":
+                Console.ForegroundColor = ConsoleColor.Green;
+                break;
+            case "Very Strong":
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                break;
         }
 
     }
