@@ -72,6 +72,8 @@ class Program
     {
         int score = 0;
 
+        if (password.Length >= 8) score++;
+
     }
 
     static string CheckStrength(string password)
