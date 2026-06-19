@@ -79,7 +79,7 @@ class Program
         if (password.Any(char.IsLower)) score++;
         if (password.Any(ch => "!@#$%^&*()_-+=<>?".Contains(ch))) score++;
 
-        return score;
+        return score; //0-6
 
     }
 
