@@ -70,6 +70,7 @@ class Program
 
     static int CalculateScore(string password)
     {
+        int score = 0;
 
     }
 
