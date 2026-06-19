@@ -68,6 +68,11 @@ class Program
         return password.ToString();
     }
 
+    static int CalculateScore(string password)
+    {
+
+    }
+
     static string CheckStrength(string password)
     {
         int score = 0;
