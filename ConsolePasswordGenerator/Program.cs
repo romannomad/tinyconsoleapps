@@ -76,6 +76,7 @@ class Program
         if (password.Length >= 12) score++;
         if (password.Any(char.IsDigit)) score++;
         if (password.Any(char.IsUpper)) score++;
+        if (password.Any(char.IsLower)) score++;
 
     }
 
