@@ -79,6 +79,8 @@ class Program
         if (password.Any(char.IsLower)) score++;
         if (password.Any(ch => "!@#$%^&*()_-+=<>?".Contains(ch))) score++;
 
+        return score;
+
     }
 
     static string CheckStrength(string password)
