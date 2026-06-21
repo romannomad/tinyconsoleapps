@@ -136,6 +136,7 @@ class Program
         Console.Write("Strength Bar: [");
 
         Console.ForegroundColor = ConsoleColor.Green;
+        Console.Write(new string('#', filled));
 
     }
 
