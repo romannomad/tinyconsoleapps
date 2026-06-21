@@ -142,6 +142,7 @@ class Program
         Console.Write(new string('-', empty));
 
         Console.ResetColor();
+        Console.WriteLine("]");
 
     }
 
