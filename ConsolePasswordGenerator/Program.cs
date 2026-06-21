@@ -141,6 +141,8 @@ class Program
         Console.ForegroundColor = ConsoleColor.Gray;
         Console.Write(new string('-', empty));
 
+        Console.ResetColor();
+
     }
 
 }
