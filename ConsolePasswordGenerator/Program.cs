@@ -132,6 +132,8 @@ class Program
         int max = 6;
         int filled = score;
         int empty = max - filled;
+
+        Console.Write("Strength Bar: [");
     }
 
 }
