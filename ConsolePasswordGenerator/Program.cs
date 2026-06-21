@@ -138,6 +138,9 @@ class Program
         Console.ForegroundColor = ConsoleColor.Green;
         Console.Write(new string('#', filled));
 
+        Console.ForegroundColor = ConsoleColor.Gray;
+        Console.Write(new string('-', empty));
+
     }
 
 }
