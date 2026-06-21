@@ -127,4 +127,11 @@ class Program
 
     }
 
+    static void PrintStrengthBar(int score)
+    {
+        int max = 6;
+        int filled = score;
+        int
+    }
+
 }
