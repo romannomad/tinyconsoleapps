@@ -131,7 +131,7 @@ class Program
     {
         int max = 6;
         int filled = score;
-        int
+        int empty = max - filled;
     }
 
 }
