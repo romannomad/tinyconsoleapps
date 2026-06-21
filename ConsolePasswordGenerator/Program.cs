@@ -15,11 +15,14 @@ class Program
         bool includeLower = AskBool("Include lowercase letters (y/n): ");
 
         string password = GeneratePassword(length, includeNumbers, includeSymbols, includeUpper, includeLower);
+
+        int score = CalculateScore()
         string strength = CheckStrength(password);
 
 
         Console.WriteLine($"\nGenerated password: {password}");
         PrintStrengthColored(strength);
+        PrintStrengthBar(score);
     }
     static int AskInt(string message)
     {
