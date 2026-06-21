@@ -16,7 +16,7 @@ class Program
 
         string password = GeneratePassword(length, includeNumbers, includeSymbols, includeUpper, includeLower);
 
-        int score = CalculateScore()
+        int score = CalculateScore(password);
         string strength = CheckStrength(password);
 
 
