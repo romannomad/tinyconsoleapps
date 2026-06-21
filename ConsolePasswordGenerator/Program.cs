@@ -134,6 +134,8 @@ class Program
         int empty = max - filled;
 
         Console.Write("Strength Bar: [");
+
+        Console.ForegroundColor = ConsoleColor.Green.Green;
     }
 
 }
