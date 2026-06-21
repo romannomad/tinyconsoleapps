@@ -135,7 +135,8 @@ class Program
 
         Console.Write("Strength Bar: [");
 
-        Console.ForegroundColor = ConsoleColor.Green.Green;
+        Console.ForegroundColor = ConsoleColor.Green;
+
     }
 
 }
