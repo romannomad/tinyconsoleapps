@@ -159,6 +159,9 @@ class Program
         if (password.Length < 12)
             Console.WriteLine("- For strong security, use 12+ characters");
 
+        if (!password.Any(char.IsDigit))
+            Console.WriteLine("- Include at least one number");
+
 
     }
 
