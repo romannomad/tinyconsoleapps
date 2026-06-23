@@ -152,6 +152,11 @@ class Program
     static void PrintFeedback(string password)
     {
         Console.WriteLine("\nFeedback:");
+
+        if (password.Length < 8)
+            Console.WriteLine("- Increase length to at least 8 characters");
+
+
     }
 
 }
