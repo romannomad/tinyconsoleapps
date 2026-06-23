@@ -162,6 +162,9 @@ class Program
         if (!password.Any(char.IsDigit))
             Console.WriteLine("- Include at least one number");
 
+        if (!password.Any(char.IsUpper))
+            Console.WriteLine("- Include at least one uppercase letter");
+
 
     }
 
