@@ -156,6 +156,9 @@ class Program
         if (password.Length < 8)
             Console.WriteLine("- Increase length to at least 8 characters");
 
+        if (password.Length < 12)
+            Console.WriteLine("- For strong security, use 12+ characters");
+
 
     }
 
