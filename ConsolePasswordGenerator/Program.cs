@@ -171,6 +171,7 @@ class Program
         if (!password.Any(ch => "!@#$%^&*()_-+=<>?".Contains(ch)))
             Console.WriteLine("- Add special symbols like !@#$%^&*");
 
+        Console.WriteLine();
 
     }
 
