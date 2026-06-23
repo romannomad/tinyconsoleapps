@@ -20,7 +20,7 @@ class Program
         string strength = CheckStrength(password);
 
 
-        Console.WriteLine($"\nGenerated password: {password}");
+        Console.WriteLine($"\nGenerated password: {password}"); // Display the generated password
         PrintStrengthColored(strength);
         PrintStrengthBar(score);
         PrintFeedback(password);
