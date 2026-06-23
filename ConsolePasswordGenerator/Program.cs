@@ -165,6 +165,9 @@ class Program
         if (!password.Any(char.IsUpper))
             Console.WriteLine("- Include at least one uppercase letter");
 
+        if (!password.Any(char.IsLower))
+            Console.WriteLine("- Include at least one lowercase letter");
+
 
     }
 
