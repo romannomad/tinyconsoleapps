@@ -149,4 +149,9 @@ class Program
 
     }
 
+    static void PrintFeedback(string password)
+    {
+        Console.WriteLine("\nFeedback:");
+    }
+
 }
