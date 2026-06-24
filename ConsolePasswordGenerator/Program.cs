@@ -23,7 +23,7 @@ class Program
         Console.WriteLine($"\nGenerated password: {password}"); // Display the generated password
         PrintStrengthColored(strength);
         PrintStrengthBar(score);
-        PrintFeedback(password);
+        PrintFeedback(password);// Display feedback for improvement
     }
     static int AskInt(string message)
     {
