@@ -18,7 +18,7 @@ class Program
 
         int score = CalculateScore(password);
         string strength = CheckStrength(password);
-        int
+        int count AskInt =
 
 
         Console.WriteLine($"\nGenerated password: {password}"); // Display the generated password
