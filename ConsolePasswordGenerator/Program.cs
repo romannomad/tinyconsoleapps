@@ -12,7 +12,7 @@ class Program
         bool includeNumbers = AskBool("Include numbers (y/n): ");
         bool includeSymbols = AskBool("Include symbols (y/n): ");
         bool includeUpper = AskBool("Include uppercase letters (y/n): ");
-        bool includeLower = AskBool("Include lowercase letters (y/n): ");
+        bool includeLower = AskBool("Include lowercase letters (y/n): "); // Ask user for character types to include
 
         string password = GeneratePassword(length, includeNumbers, includeSymbols, includeUpper, includeLower);
 
