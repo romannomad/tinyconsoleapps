@@ -18,7 +18,7 @@ class Program
         string password = GeneratePassword(length, includeNumbers, includeSymbols, includeUpper, includeLower);
 
         int score = CalculateScore(password); // Calculate the score of the generated password
-        string strength = CheckStrength(password);
+        string strength = CheckStrength(password); // Check the strength of the generated password
 
         Console.WriteLine($"\nGenerated password: {password}"); // Display the generated password
         PrintStrengthColored(strength); // Display the strength of the password with color coding
