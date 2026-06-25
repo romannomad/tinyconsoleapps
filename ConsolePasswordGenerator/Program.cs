@@ -15,15 +15,18 @@ class Program
         bool includeUpper = AskBool("Include uppercase letters (y/n): ");
         bool includeLower = AskBool("Include lowercase letters (y/n): "); // Ask user for character types to include
 
-        string password = GeneratePassword(length, includeNumbers, includeSymbols, includeUpper, includeLower);
 
-        int score = CalculateScore(password); // Calculate the score of the generated password
-        string strength = CheckStrength(password); // Check the strength of the generated password
+        if ()
+        {
+            string password = GeneratePassword(length, includeNumbers, includeSymbols, includeUpper, includeLower);
+            int score = CalculateScore(password); // Calculate the score of the generated password
+            string strength = CheckStrength(password); // Check the strength of the generated password
 
-        Console.WriteLine($"\nGenerated password: {password}"); // Display the generated password
-        PrintStrengthColored(strength); // Display the strength of the password with color coding
-        PrintStrengthBar(score);
-        PrintFeedback(password);// Display feedback for improvement
+            Console.WriteLine($"\nGenerated password: {password}"); // Display the generated password
+            PrintStrengthColored(strength); // Display the strength of the password with color coding
+            PrintStrengthBar(score);
+            PrintFeedback(password);// Display feedback for improvement
+        }
     }
     static int AskInt(string message)
     {
