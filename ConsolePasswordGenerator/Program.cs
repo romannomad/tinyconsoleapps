@@ -16,7 +16,7 @@ class Program
         bool includeLower = AskBool("Include lowercase letters (y/n): "); // Ask user for character types to include
 
 
-        if ()
+        for (int i = 1; i <= count; i++)
         {
             string password = GeneratePassword(length, includeNumbers, includeSymbols, includeUpper, includeLower);
             int score = CalculateScore(password); // Calculate the score of the generated password
