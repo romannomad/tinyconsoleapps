@@ -6,6 +6,7 @@ class Program
 {
     static void Main()
     {
+        int count = AskInt("How many passwords to generate: ");// Ask user for the number of passwords to generate
         Console.WriteLine("=== Password Generator ===");
 
         int length = AskInt("Password length (e.g. 12): ");
@@ -18,8 +19,6 @@ class Program
 
         int score = CalculateScore(password);
         string strength = CheckStrength(password);
-        int count = AskInt("How many passwords to generate: ");// Ask user for the number of passwords to generate
-
 
         Console.WriteLine($"\nGenerated password: {password}"); // Display the generated password
         PrintStrengthColored(strength);
