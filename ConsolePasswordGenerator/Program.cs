@@ -24,7 +24,7 @@ class Program
 
             Console.WriteLine($"\nGenerated password: {password}"); // Display the generated password
             PrintStrengthColored(strength); // Display the strength of the password with color coding
-            PrintStrengthBar(score);
+            PrintStrengthBar(score);// Display a visual strength bar for the password
             PrintFeedback(password);// Display feedback for improvement
         }
     }
