@@ -31,7 +31,7 @@ class Program
     static int AskInt(string message)
     {
         Console.Write(message); // Prompt the user with the provided message
-        return int.Parse(Console.ReadLine()!);
+        return int.Parse(Console.ReadLine()!); // Read the user input and parse it as an integer
     }
 
     static bool AskBool(string message)
