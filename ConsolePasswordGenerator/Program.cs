@@ -30,7 +30,7 @@ class Program
     }
     static int AskInt(string message)
     {
-        Console.Write(message);
+        Console.Write(message); // Prompt the user with the provided message
         return int.Parse(Console.ReadLine()!);
     }
 
