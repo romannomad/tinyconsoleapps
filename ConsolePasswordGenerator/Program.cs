@@ -10,7 +10,7 @@ class Program
         Console.WriteLine("=== Password Generator ===");
 
         int length = AskInt("Password length (e.g. 12): ");// Ask user for the desired password length
-        bool includeNumbers = AskBool("Include numbers (y/n): ");
+        bool includeNumbers = AskBool("Include numbers (y/n): ");// Ask user for character types to include
         bool includeSymbols = AskBool("Include symbols (y/n): ");
         bool includeUpper = AskBool("Include uppercase letters (y/n): ");
         bool includeLower = AskBool("Include lowercase letters (y/n): "); // Ask user for character types to include
