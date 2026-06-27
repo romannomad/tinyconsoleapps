@@ -37,7 +37,7 @@ class Program
     static bool AskBool(string message)
     {
         Console.Write(message);
-        string input = Console.ReadLine()!.Trim().ToLower();
+        string input = Console.ReadLine()!.Trim().ToLower(); // Read the user input, trim whitespace, and convert to lowercase
         return input == "y" || input == "yes";
     }
 
