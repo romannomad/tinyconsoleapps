@@ -38,7 +38,7 @@ class Program
     {
         Console.Write(message);
         string input = Console.ReadLine()!.Trim().ToLower(); // Read the user input, trim whitespace, and convert to lowercase
-        return input == "y" || input == "yes";
+        return input == "y" || input == "yes"; // Return true if the input is "y" or "yes", otherwise return false
     }
 
     static string GeneratePassword(int length, bool numbers, bool symbols, bool upper, bool lower)
