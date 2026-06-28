@@ -46,7 +46,7 @@ class Program
         string digits = "0123456789"; // Define the character sets for password generation
         string specialChars = "!@#$%^&*()_-+=<>?"; // Define the character sets for password generation
         string upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // Define the character sets for password generation
-        string lowerChars = "abcdefghijklmnopqrstuvwxyz";
+        string lowerChars = "abcdefghijklmnopqrstuvwxyz"; // Define the character sets for password generation
 
         StringBuilder pool = new();
 
