@@ -44,7 +44,7 @@ class Program
     static string GeneratePassword(int length, bool numbers, bool symbols, bool upper, bool lower)
     {
         string digits = "0123456789"; // Define the character sets for password generation
-        string specialChars = "!@#$%^&*()_-+=<>?";
+        string specialChars = "!@#$%^&*()_-+=<>?"; // Define the character sets for password generation
         string upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         string lowerChars = "abcdefghijklmnopqrstuvwxyz";
 
