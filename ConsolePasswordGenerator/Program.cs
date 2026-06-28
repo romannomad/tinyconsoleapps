@@ -48,7 +48,7 @@ class Program
         string upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // Define the character sets for password generation
         string lowerChars = "abcdefghijklmnopqrstuvwxyz"; // Define the character sets for password generation
 
-        StringBuilder pool = new();
+        StringBuilder pool = new(); // Create a StringBuilder to hold the pool of characters to choose from
 
         if (numbers) pool.Append(digits);
         if (symbols) pool.Append(specialChars);
