@@ -50,7 +50,7 @@ class Program
 
         StringBuilder pool = new(); // Create a StringBuilder to hold the pool of characters to choose from
 
-        if (numbers) pool.Append(digits);
+        if (numbers) pool.Append(digits);// Append digits to the pool if included
         if (symbols) pool.Append(specialChars);
         if (upper) pool.Append(upperChars);
         if (lower) pool.Append(lowerChars);
