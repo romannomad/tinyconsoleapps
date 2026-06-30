@@ -57,7 +57,7 @@ class Program
 
         if (pool.Length == 0)
         {
-            throw new Exception("At least one character type must be included.");
+            throw new Exception("At least one character type must be included."); // Throw an exception if no character types are included
         }
 
         StringBuilder password = new();
