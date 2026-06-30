@@ -61,7 +61,7 @@ class Program
         }
 
         StringBuilder password = new();
-        using var rng = RandomNumberGenerator.Create();
+        using var rng = RandomNumberGenerator.Create(); // Create a secure random number generator
 
         for (int i = 0; i < length; i++)
         {
