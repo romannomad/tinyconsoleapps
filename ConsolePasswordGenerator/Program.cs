@@ -52,7 +52,7 @@ class Program
 
         if (numbers) pool.Append(digits);// Append digits to the pool if included
         if (symbols) pool.Append(specialChars); //Append special characters to the pool if included
-        if (upper) pool.Append(upperChars);
+        if (upper) pool.Append(upperChars); // Append uppercase letters to the pool if included
         if (lower) pool.Append(lowerChars);
 
         if (pool.Length == 0)
