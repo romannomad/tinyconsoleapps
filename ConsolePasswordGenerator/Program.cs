@@ -65,7 +65,7 @@ class Program
 
         for (int i = 0; i < length; i++) // Generate a password of the specified length
         {
-            byte[] randomByte = new byte[1];
+            byte[] randomByte = new byte[1]; // Create a byte array to hold a random byte
             rng.GetBytes(randomByte);
             int index = randomByte[0] % pool.Length;
             password.Append(pool[index]);
