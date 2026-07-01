@@ -63,7 +63,7 @@ class Program
         StringBuilder password = new();
         using var rng = RandomNumberGenerator.Create(); // Create a secure random number generator
 
-        for (int i = 0; i < length; i++)
+        for (int i = 0; i < length; i++) // Generate a password of the specified length
         {
             byte[] randomByte = new byte[1];
             rng.GetBytes(randomByte);
