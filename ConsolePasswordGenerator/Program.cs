@@ -67,7 +67,7 @@ class Program
         {
             byte[] randomByte = new byte[1]; // Create a byte array to hold a random byte
             rng.GetBytes(randomByte);
-            int index = randomByte[0] % pool.Length;
+            int index = randomByte[0] % pool.Length; // Use the random byte to select a character from the pool
             password.Append(pool[index]);
 
         }
