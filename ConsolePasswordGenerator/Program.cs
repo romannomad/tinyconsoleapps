@@ -75,7 +75,7 @@ class Program
         return password.ToString();// Return the generated password as a string
     }
 
-    static int CalculateScore(string password)
+    static int CalculateScore(string password) // Calculate the score of the password based on various criteria
     {
         int score = 0;
 
