@@ -80,7 +80,7 @@ class Program
         int score = 0;
 
         if (password.Length >= 8) score++;// Increment score if password length is at least 8 characters
-        if (password.Length >= 12) score++;
+        if (password.Length >= 12) score++;// Increment score if password length is at least 12 characters
         if (password.Any(char.IsDigit)) score++;
         if (password.Any(char.IsUpper)) score++;
         if (password.Any(char.IsLower)) score++;
