@@ -92,7 +92,7 @@ class Program
 
     static string CheckStrength(string password)
     {
-        int score = 0;
+        int score = 0;// Calculate the score of the password based on various criteria
         if (password.Length >= 8) score++;
         if (password.Length >= 12) score++;
         if (password.Any(char.IsDigit)) score++;
