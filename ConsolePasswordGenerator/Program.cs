@@ -81,7 +81,7 @@ class Program
 
         if (password.Length >= 8) score++;// Increment score if password length is at least 8 characters
         if (password.Length >= 12) score++;// Increment score if password length is at least 12 characters
-        if (password.Any(char.IsDigit)) score++;
+        if (password.Any(char.IsDigit)) score++;// Increment score if password contains at least one digit
         if (password.Any(char.IsUpper)) score++;
         if (password.Any(char.IsLower)) score++;
         if (password.Any(ch => "!@#$%^&*()_-+=<>?".Contains(ch))) score++;
