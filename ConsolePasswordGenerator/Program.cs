@@ -103,7 +103,7 @@ class Program
         return score switch
         {
             <= 2 => "Weak", // Return "Weak" if score is 2 or less
-            3 or 4 => "Medium",
+            3 or 4 => "Medium", // Return "Medium" if score is 3 or 4
             5 => "Strong",
             _ => "Very Strong"
 
