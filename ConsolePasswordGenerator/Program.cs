@@ -115,7 +115,7 @@ class Program
     {
         switch (strength)
         {
-            case "Weak":
+            case "Weak": // Set console text color based on password strength
                 Console.ForegroundColor = ConsoleColor.Red;
                 break;
             case "Medium":
