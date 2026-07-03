@@ -104,7 +104,7 @@ class Program
         {
             <= 2 => "Weak", // Return "Weak" if score is 2 or less
             3 or 4 => "Medium", // Return "Medium" if score is 3 or 4
-            5 => "Strong",
+            5 => "Strong", // Return "Strong" if score is 5
             _ => "Very Strong"
 
         };
