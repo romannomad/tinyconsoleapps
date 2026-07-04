@@ -31,12 +31,7 @@ class Program
         Console.WriteLine($"\nAlgorithm: {algorithm}");
         Console.WriteLine($"Input   : {input}");
         Console.WriteLine($"Hash    : {hash}");
-
-
-
-
-
-
-
     }
+
+    s
 }
