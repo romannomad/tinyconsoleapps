@@ -28,6 +28,10 @@ class Program
 
         string hash = ComputeHash(input, algorithm);
 
+        Console.WriteLine($"\nAlgorithm: {algorithm}");
+        Console.WriteLine($"Input   : {input}");
+        Console.WriteLine($"Hash    : {hash}");
+
 
 
 
