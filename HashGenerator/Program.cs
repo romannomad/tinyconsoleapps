@@ -11,6 +11,9 @@ class Program
         Console.WriteLine("Enter text to hash: ");
         string input = Console.ReadLine() ?? string.Empty;
 
+        Console.WriteLine("Choose algorithm:");
+
+
 
     }
 }
