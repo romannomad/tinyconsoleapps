@@ -15,6 +15,7 @@ class Program
         Console.WriteLine("1) MD5");
         Console.WriteLine("2) SHA256");
         Console.WriteLine("3) SHA512");
+        Console.WriteLine("Your choice (1-3): ");
 
 
 
