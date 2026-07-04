@@ -8,5 +8,9 @@ class Program
     {
         Console.WriteLine("===Hash Generator===");
 
+        Console.WriteLine("Enter text to hash: ");
+        string input = Console.ReadLine() ?? string.Empty;
+
+
     }
 }
