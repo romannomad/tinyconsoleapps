@@ -26,6 +26,8 @@ class Program
             _ => "SHA256"
         };
 
+        string hash = ComputeHash(input, algorithm);
+
 
 
 
