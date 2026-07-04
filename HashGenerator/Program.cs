@@ -12,6 +12,8 @@ class Program
         string input = Console.ReadLine() ?? string.Empty;
 
         Console.WriteLine("Choose algorithm:");
+        Console.WriteLine("1) MD5");
+        Console.WriteLine("2) SHA256");
 
 
 
