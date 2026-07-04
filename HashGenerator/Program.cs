@@ -33,5 +33,11 @@ class Program
         Console.WriteLine($"Hash    : {hash}");
     }
 
-    s
+    static string ComputeHash(string input, string algorithmName)
+    {
+        using HashAlgorithm algorithm = algorithmName switch
+        {
+
+        }
+    }
 }
