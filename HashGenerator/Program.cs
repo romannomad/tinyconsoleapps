@@ -16,6 +16,19 @@ class Program
         Console.WriteLine("2) SHA256");
         Console.WriteLine("3) SHA512");
         Console.WriteLine("Your choice (1-3): ");
+        string choice = Console.ReadLine() ?? "2";
+
+        string algorithm = choice switch
+        {
+            "1" => "MD5",
+            "2" => "SHA256",
+            "3" => "SHA512",
+            _ => "SHA256"
+        };
+
+
+
+
 
 
 
