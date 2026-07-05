@@ -43,5 +43,7 @@ class Program
             _ => SHA256.Create()
 
         };
+
+        byte[] bytes = Encoding.UTF8.GetBytes(input);
     }
 }
