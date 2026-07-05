@@ -48,5 +48,9 @@ class Program
         byte[] hashBytes = algorithm.ComputeHash(bytes);
 
         StringBuilder sb = new();
+        foreach (byte b in hashBytes)
+        {
+
+        }
     }
 }
