@@ -51,7 +51,8 @@ class Program
         foreach (byte b in hashBytes)
         {
             sb.Append(b.ToString("x2"));
-
         }
+
+        return sb.ToString();
     }
 }
