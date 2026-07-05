@@ -45,5 +45,6 @@ class Program
         };
 
         byte[] bytes = Encoding.UTF8.GetBytes(input);
+        byte[] hashBytes = algorithm.ComputeHash(bytes);
     }
 }
