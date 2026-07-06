@@ -44,7 +44,7 @@ class Program
 
         };
 
-        byte[] bytes = Encoding.UTF8.GetBytes(input);
+        byte[] bytes = Encoding.UTF8.GetBytes(input); // Convert the input string to a byte array using UTF-8 encoding
         byte[] hashBytes = algorithm.ComputeHash(bytes);
 
         StringBuilder sb = new();
