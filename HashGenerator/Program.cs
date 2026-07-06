@@ -37,7 +37,7 @@ class Program
     {
         using HashAlgorithm algorithm = algorithmName switch
         {
-            "MD5" => MD5.Create(),
+            "MD5" => MD5.Create(), // Create an instance of the MD5 hash algorithm
             "SHA256" => SHA256.Create(),
             "SHA512" => SHA512.Create(),
             _ => SHA256.Create()
