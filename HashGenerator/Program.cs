@@ -47,7 +47,7 @@ class Program
         byte[] bytes = Encoding.UTF8.GetBytes(input); // Convert the input string to a byte array using UTF-8 encoding
         byte[] hashBytes = algorithm.ComputeHash(bytes);
 
-        StringBuilder sb = new();
+        StringBuilder sb = new(); // Create a StringBuilder to build the hash string representation
         foreach (byte b in hashBytes)
         {
             sb.Append(b.ToString("x2"));
