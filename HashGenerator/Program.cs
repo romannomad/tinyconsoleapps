@@ -30,7 +30,7 @@ class Program
 
         Console.WriteLine($"\nAlgorithm: {algorithm}");
         Console.WriteLine($"Input   : {input}");
-        Console.WriteLine($"Hash    : {hash}");
+        Console.WriteLine($"Hash    : {hash}");// Display the computed hash to the user
     }
 
     static string ComputeHash(string input, string algorithmName)
