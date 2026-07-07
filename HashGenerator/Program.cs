@@ -48,7 +48,7 @@ class Program
         byte[] hashBytes = algorithm.ComputeHash(bytes);
 
         StringBuilder sb = new(); // Create a StringBuilder to build the hash string representation
-        foreach (byte b in hashBytes)
+        foreach (byte b in hashBytes) // Iterate through each byte in the hash byte array
         {
             sb.Append(b.ToString("x2"));
         }
