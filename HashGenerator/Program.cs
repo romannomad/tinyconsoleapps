@@ -28,7 +28,7 @@ class Program
 
         string hash = ComputeHash(input, algorithm);
 
-        Console.WriteLine($"\nAlgorithm: {algorithm}");
+        Console.WriteLine($"\nAlgorithm: {algorithm}");// Display the selected algorithm to the user
         Console.WriteLine($"Input   : {input}"); // Display the original input to the user
         Console.WriteLine($"Hash    : {hash}");// Display the computed hash to the user
     }
