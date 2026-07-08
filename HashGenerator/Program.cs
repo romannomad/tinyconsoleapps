@@ -20,7 +20,7 @@ class Program
 
         string algorithm = choice switch // Select the hashing algorithm based on user input
         {
-            "1" => "MD5",
+            "1" => "MD5", // Use MD5 if the user selects option 1
             "2" => "SHA256",
             "3" => "SHA512",
             _ => "SHA256"
