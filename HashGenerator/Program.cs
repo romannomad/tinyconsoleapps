@@ -33,7 +33,7 @@ class Program
         Console.WriteLine($"Hash    : {hash}");// Display the computed hash to the user
     }
 
-    static string ComputeHash(string input, string algorithmName)
+    static string ComputeHash(string input, string algorithmName) // Method to compute the hash of the input string using the specified algorithm
     {
         using HashAlgorithm algorithm = algorithmName switch
         {
