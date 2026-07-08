@@ -16,7 +16,7 @@ class Program
         Console.WriteLine("2) SHA256");
         Console.WriteLine("3) SHA512");
         Console.WriteLine("Your choice (1-3): ");
-        string choice = Console.ReadLine() ?? "2";
+        string choice = Console.ReadLine() ?? "2"; // Default to SHA256 if no choice is made
 
         string algorithm = choice switch // Select the hashing algorithm based on user input
         {
