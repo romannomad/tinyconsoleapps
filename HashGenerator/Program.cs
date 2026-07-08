@@ -18,7 +18,7 @@ class Program
         Console.WriteLine("Your choice (1-3): ");
         string choice = Console.ReadLine() ?? "2";
 
-        string algorithm = choice switch
+        string algorithm = choice switch // Select the hashing algorithm based on user input
         {
             "1" => "MD5",
             "2" => "SHA256",
