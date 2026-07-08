@@ -26,7 +26,7 @@ class Program
             _ => "SHA256"
         };
 
-        string hash = ComputeHash(input, algorithm);
+        string hash = ComputeHash(input, algorithm);// Compute the hash of the input string using the selected algorithm
 
         Console.WriteLine($"\nAlgorithm: {algorithm}");// Display the selected algorithm to the user
         Console.WriteLine($"Input   : {input}"); // Display the original input to the user
