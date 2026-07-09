@@ -11,7 +11,7 @@ class Program
         Console.WriteLine("Enter text to hash: ");
         string input = Console.ReadLine() ?? string.Empty;
 
-        Console.WriteLine("Choose algorithm:");
+        Console.WriteLine("Choose algorithm:"); // Prompt the user to select a hashing algorithm
         Console.WriteLine("1) MD5");
         Console.WriteLine("2) SHA256");
         Console.WriteLine("3) SHA512");
