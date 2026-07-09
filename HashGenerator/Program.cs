@@ -15,14 +15,14 @@ class Program
         Console.WriteLine("1) MD5");
         Console.WriteLine("2) SHA256");
         Console.WriteLine("3) SHA512");
-        Console.WriteLine("Your choice (1-3): ");
+        Console.WriteLine("Your choice (1-3): "); // Prompt the user to select a hashing algorithm
         string choice = Console.ReadLine() ?? "2"; // Default to SHA256 if no choice is made
 
         string algorithm = choice switch // Select the hashing algorithm based on user input
         {
             "1" => "MD5", // Use MD5 if the user selects option 1
             "2" => "SHA256", // Use SHA256 if the user selects option 2
-            "3" => "SHA512",
+            "3" => "SHA512", // 
             _ => "SHA256"
         };
 
