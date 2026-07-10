@@ -67,5 +67,6 @@ class Program
         };
 
         using FileStream stream = File.OpenRead(filePath);
+        byte[] hashBytes = algorithm.ComputeHash(stream);
     }
 }
