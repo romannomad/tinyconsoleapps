@@ -6,7 +6,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("===Hash Generator===");
+        Console.WriteLine("===Hash Generator===");// Display the title of the program to the user
 
         Console.WriteLine("Enter text to hash: ");// Prompt the user to enter the text to hash
         string input = Console.ReadLine() ?? string.Empty;// Read the user input and default to an empty string if no input is provided
