@@ -55,4 +55,15 @@ class Program
 
         return sb.ToString();// Return the final hash string representation
     }
+
+    static string ComputeFileHash(string filePath, string algorithmName)
+    {
+        using HashAlgorithm algorithm = algorithmName switch
+        {
+            "MD%" => MD5.Create(),
+            "SHA256" => SHA256.Create(),
+            "SHA512" => SHA512.Create(),
+            -
+        }
+    }
 }
