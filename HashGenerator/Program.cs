@@ -9,7 +9,7 @@ class Program
         Console.WriteLine("===Hash Generator===");
 
         Console.WriteLine("Enter text to hash: ");// Prompt the user to enter the text to hash
-        string input = Console.ReadLine() ?? string.Empty;
+        string input = Console.ReadLine() ?? string.Empty;// Read the user input and default to an empty string if no input is provided
 
         Console.WriteLine("Choose algorithm:"); // Prompt the user to select a hashing algorithm
         Console.WriteLine("1) MD5");
