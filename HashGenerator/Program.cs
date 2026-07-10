@@ -65,5 +65,7 @@ class Program
             "SHA512" => SHA512.Create(),
             _ => SHA256.Create()
         };
+
+        using FileStream stream = File.OpenRead(filePath);
     }
 }
