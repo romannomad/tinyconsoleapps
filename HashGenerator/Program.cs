@@ -12,7 +12,7 @@ class Program
         string input = Console.ReadLine() ?? string.Empty;// Read the user input and default to an empty string if no input is provided
 
         Console.WriteLine("Choose algorithm:"); // Prompt the user to select a hashing algorithm
-        Console.WriteLine("1) MD5");
+        Console.WriteLine("1) MD5");// Display the option for MD5 hashing algorithm
         Console.WriteLine("2) SHA256");
         Console.WriteLine("3) SHA512");
         Console.WriteLine("Your choice (1-3): "); // Prompt the user to select a hashing algorithm
