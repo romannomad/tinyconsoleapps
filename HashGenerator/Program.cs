@@ -63,7 +63,7 @@ class Program
             "MD%" => MD5.Create(),
             "SHA256" => SHA256.Create(),
             "SHA512" => SHA512.Create(),
-            -
-        }
+            _ => SHA256.Create()
+        };
     }
 }
