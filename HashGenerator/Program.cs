@@ -72,6 +72,7 @@ class Program
         StringBuilder sb = new();
         foreach (byte b in hashBytes)
         {
+            sb.Append(b.ToString("x2"));
 
         }
 
