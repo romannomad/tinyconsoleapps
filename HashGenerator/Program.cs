@@ -8,7 +8,7 @@ class Program
     {
         Console.WriteLine("===Hash Generator===");
 
-        Console.WriteLine("Enter text to hash: ");
+        Console.WriteLine("Enter text to hash: ");// Prompt the user to enter the text to hash
         string input = Console.ReadLine() ?? string.Empty;
 
         Console.WriteLine("Choose algorithm:"); // Prompt the user to select a hashing algorithm
@@ -22,7 +22,7 @@ class Program
         {
             "1" => "MD5", // Use MD5 if the user selects option 1
             "2" => "SHA256", // Use SHA256 if the user selects option 2
-            "3" => "SHA512", // 
+            "3" => "SHA512", // Use SHA512 if the user selects option 3
             _ => "SHA256"
         };
 
