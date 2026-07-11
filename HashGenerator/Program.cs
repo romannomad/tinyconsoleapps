@@ -67,7 +67,7 @@ class Program
         };
 
         using FileStream stream = File.OpenRead(filePath);
-        byte[] hashBytes = algorithm.ComputeHash(stream);
+        byte[] hashBytes = algorithm.ComputeHash(stream); // Compute the hash of the file stream using the selected hash algorithm
 
         StringBuilder sb = new(); //    Create a StringBuilder to build the hash string representation
         foreach (byte b in hashBytes) // Iterate through each byte in the hash byte array
