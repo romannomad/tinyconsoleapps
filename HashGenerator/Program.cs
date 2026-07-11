@@ -70,7 +70,7 @@ class Program
         byte[] hashBytes = algorithm.ComputeHash(stream);
 
         StringBuilder sb = new();
-        foreach (byte b in hashBytes)
+        foreach (byte b in hashBytes) // Iterate through each byte in the hash byte array
         {
             sb.Append(b.ToString("x2")); // Convert each byte to a hexadecimal string and append it to the StringBuilder
         }
