@@ -72,7 +72,7 @@ class Program
         StringBuilder sb = new();
         foreach (byte b in hashBytes)
         {
-            sb.Append(b.ToString("x2"));
+            sb.Append(b.ToString("x2")); // Convert each byte to a hexadecimal string and append it to the StringBuilder
         }
 
         return sb.ToString(); // Return the final hash string representation
