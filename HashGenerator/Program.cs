@@ -75,7 +75,7 @@ class Program
             sb.Append(b.ToString("x2"));
         }
 
-        return sb.ToString();
+        return sb.ToString(); // Return the final hash string representation
 
     }
 }
