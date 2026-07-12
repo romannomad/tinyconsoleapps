@@ -60,7 +60,7 @@ class Program
     {
         using HashAlgorithm algorithm = algorithmName switch
         {
-            "MD%" => MD5.Create(),
+            "MD%" => MD5.Create(),//
             "SHA256" => SHA256.Create(),
             "SHA512" => SHA512.Create(),
             _ => SHA256.Create()
