@@ -66,7 +66,7 @@ class Program
             _ => SHA256.Create() //Default to SHA256 if an unknown algorithm is specified
         };
 
-        using FileStream stream = File.OpenRead(filePath);
+        using FileStream stream = File.OpenRead(filePath);//
         byte[] hashBytes = algorithm.ComputeHash(stream); // Compute the hash of the file stream using the selected hash algorithm
 
         StringBuilder sb = new(); //    Create a StringBuilder to build the hash string representation
