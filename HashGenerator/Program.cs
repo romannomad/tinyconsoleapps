@@ -58,7 +58,7 @@ class Program
 
     static string ComputeFileHash(string filePath, string algorithmName)
     {
-        using HashAlgorithm algorithm = algorithmName switch
+        using HashAlgorithm algorithm = algorithmName switch //
         {
             "MD%" => MD5.Create(),//        Create an instance of the MD5 hash algorithm
             "SHA256" => SHA256.Create(),//        Create an instance of the SHA256 hash algorithm  
