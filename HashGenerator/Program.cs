@@ -53,7 +53,7 @@ class Program
             sb.Append(b.ToString("x2"));// Convert each byte to a hexadecimal string and append it to the StringBuilder
         }
 
-        return sb.ToString();// Return the final hash string representation
+        return sb.ToString();// Return the final hash string representation, final.
     }
 
     static string ComputeFileHash(string filePath, string algorithmName)
