@@ -23,7 +23,7 @@ class Program
             "1" => "MD5", // Use MD5 if the user selects option 1
             "2" => "SHA256", // Use SHA256 if the user selects option 2
             "3" => "SHA512", // Use SHA512 if the user selects option 3
-            _ => "SHA256"//
+            _ => "SHA256"// Default to SHA256 if an invalid choice is made
         };
 
         string hash = ComputeHash(input, algorithm);// Compute the hash of the input string using the selected algorithm
