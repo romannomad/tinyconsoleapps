@@ -18,7 +18,7 @@ class Program
 
             var choice = Console.ReadLine();//
 
-            switch (choice)//
+            switch (choice)//chose one option
             {
                 case "1":
                     AddNote();
