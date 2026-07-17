@@ -20,7 +20,7 @@ class Program
 
             switch (choice)//chose one option
             {
-                case "1":
+                case "1"://add note
                     AddNote();
                     break;
 
