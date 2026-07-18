@@ -12,7 +12,7 @@ class Program
         {
             Console.WriteLine("1. Add Note");//     
             Console.WriteLine("2. View Notes");
-            Console.WriteLine("3. Delete all notes");
+            Console.WriteLine("3. Delete all notes");//Delete all notes
             Console.WriteLine("4. Exit");
             Console.Write("Choose: ");
 
