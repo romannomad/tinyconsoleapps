@@ -14,7 +14,7 @@ class Program
             Console.WriteLine("2. View Notes");
             Console.WriteLine("3. Delete all notes");//Delete all notes
             Console.WriteLine("4. Exit");//Exit the program
-            Console.Write("Choose: ");//
+            Console.Write("Choose: ");//ask user to choose an option
 
             var choice = Console.ReadLine();//
 
