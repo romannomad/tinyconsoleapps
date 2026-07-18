@@ -16,7 +16,7 @@ class Program
             Console.WriteLine("4. Exit");//Exit the program
             Console.Write("Choose: ");//ask user to choose an option
 
-            var choice = Console.ReadLine();//
+            var choice = Console.ReadLine();//read user's choice
 
             switch (choice)//chose one option
             {
