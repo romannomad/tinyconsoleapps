@@ -2,5 +2,7 @@
 
 class Habit
 {
+    public string Name { get; set; }
+
 
 }
