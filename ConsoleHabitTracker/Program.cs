@@ -3,6 +3,6 @@
 class Habit
 {
     public string Name { get; set; }
-
+    public int CountThisWeek { get; set; }
 
 }
