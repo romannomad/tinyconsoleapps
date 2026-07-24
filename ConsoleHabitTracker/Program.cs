@@ -6,3 +6,8 @@ class Habit
     public int CountThisWeek { get; set; }
 
 }
+
+class Program
+{
+
+}
