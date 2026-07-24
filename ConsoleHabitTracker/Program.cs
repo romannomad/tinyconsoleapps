@@ -14,6 +14,12 @@ class Program
 
     static void Main()
     {
+        Load();
+
+        while (true)
+        {
+
+        }
 
     }
 
