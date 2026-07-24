@@ -18,6 +18,7 @@ class Program
 
         while (true)
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
 
         }
 
