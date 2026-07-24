@@ -12,4 +12,9 @@ class Program
     static string filePath = "habits.json";
     static List<Habit> habits = new();
 
+    static void Main()
+    {
+
+    }
+
 }
