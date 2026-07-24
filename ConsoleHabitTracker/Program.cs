@@ -9,5 +9,6 @@ class Habit
 
 class Program
 {
+    static string filePath = "habits.json";
 
 }
