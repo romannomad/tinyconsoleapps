@@ -19,6 +19,7 @@ class Program
         while (true)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("\n=== Habit Tracker ===");
 
         }
 
