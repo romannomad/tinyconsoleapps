@@ -20,6 +20,9 @@ class Program
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\n=== Habit Tracker ===");
+            Console.ResetColor();
+
+
 
         }
 
