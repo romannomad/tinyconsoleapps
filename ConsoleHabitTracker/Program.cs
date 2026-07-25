@@ -27,6 +27,7 @@ class Program
             Console.WriteLine("3. Show weekly stats");
             Console.WriteLine("4. Reset weekly stats");
             Console.WriteLine("5. Exit");
+            Console.Write("Choose: ");
         }
 
     }
