@@ -28,6 +28,8 @@ class Program
             Console.WriteLine("4. Reset weekly stats");
             Console.WriteLine("5. Exit");
             Console.Write("Choose: ");
+
+            string choice = Console.ReadLine();
         }
 
     }
