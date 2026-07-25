@@ -23,7 +23,7 @@ class Program
             Console.ResetColor();
 
             Console.WriteLine("1. Add Habit");
-            Console
+            Console.WriteLine("2. Mark habit as done today");
         }
 
     }
