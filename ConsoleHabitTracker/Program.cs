@@ -26,6 +26,7 @@ class Program
             Console.WriteLine("2. Mark habit as done today");
             Console.WriteLine("3. Show weekly stats");
             Console.WriteLine("4. Reset weekly stats");
+            Console.WriteLine();
         }
 
     }
