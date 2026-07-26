@@ -72,6 +72,22 @@ class Program
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("Habit added!");
         Console.ResetColor();
+    }
+
+    static void MarkDone()
+    {
+        if (habits.Count == 0)
+        {
+            Console.WriteLine("No habits yet");
+            return;
+        }
+
+        Console.WriteLine("Select a habit: ");
+        for (int i = 0; i < habits.Count; i++)
+        {
+            Console.WriteLine($"{i + 1}. {habits[i].Name}");
+        }
+
 
     }
 
