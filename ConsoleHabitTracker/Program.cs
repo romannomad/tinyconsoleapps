@@ -49,6 +49,8 @@ class Program
                     Save();
                     return;
                 default:
+                    Console.WriteLine("Invalid option");
+                    break;
             }
         }
 
