@@ -42,6 +42,9 @@ class Program
                 case "3":
                     ShowStats();
                     break;
+                case "4":
+                    ResetStats();
+                    break;
 
 
             }
