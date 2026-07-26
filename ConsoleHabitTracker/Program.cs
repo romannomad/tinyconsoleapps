@@ -30,6 +30,11 @@ class Program
             Console.Write("Choose: ");
 
             string choice = Console.ReadLine();
+
+            switch (choice)
+            {
+
+            }
         }
 
     }
