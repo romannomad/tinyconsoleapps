@@ -69,6 +69,10 @@ class Program
         habits.Add(new Habit { Name = name, CountThisWeek = 0 });
         Save();
 
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine("Habit added!");
+        Console.ResetColor();
+
     }
 
 }
