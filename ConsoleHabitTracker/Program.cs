@@ -39,6 +39,9 @@ class Program
                 case "2":
                     MarkDone();
                     break;
+                case "3":
+                    ShowStats();
+                    break;
 
 
             }
