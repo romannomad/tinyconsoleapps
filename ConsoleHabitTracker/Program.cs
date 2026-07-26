@@ -88,6 +88,13 @@ class Program
             Console.WriteLine($"{i + 1}. {habits[i].Name}");
         }
 
+        Console.Write("Choose: ");
+        if (int.TryParse(Console.ReadLine(), out int index)
+        && index >= 1 && index <= habits.Count)
+        {
+
+        }
+
 
     }
 
