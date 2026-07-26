@@ -36,7 +36,10 @@ class Program
                 case "1":
                     AddHabit();
                     break;
-                case
+                case "2":
+                    MarkDone();
+                    break;
+
 
             }
         }
