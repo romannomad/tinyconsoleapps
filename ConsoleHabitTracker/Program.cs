@@ -65,6 +65,10 @@ class Program
             Console.WriteLine("Name cannot be empty.");
             return;
         }
+
+        habits.Add(new Habit { Name = name, CountThisWeek = 0 });
+        Save();
+
     }
 
 }
