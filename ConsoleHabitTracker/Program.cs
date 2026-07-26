@@ -45,8 +45,10 @@ class Program
                 case "4":
                     ResetStats();
                     break;
-
-
+                case "5":
+                    Save();
+                    return;
+                default:
             }
         }
 
