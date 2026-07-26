@@ -33,6 +33,10 @@ class Program
 
             switch (choice)
             {
+                case "1":
+                    AddHabit();
+                    break;
+                case
 
             }
         }
