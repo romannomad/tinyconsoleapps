@@ -53,7 +53,11 @@ class Program
                     break;
             }
         }
+    }
 
+    static void AddHabit()
+    {
+        Console.Write("Habit name: ");
     }
 
 }
