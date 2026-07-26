@@ -58,6 +58,13 @@ class Program
     static void AddHabit()
     {
         Console.Write("Habit name: ");
+        string name = Console.ReadLine();
+
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            Console.WriteLine("Name cannot be empty.");
+            return;
+        }
     }
 
 }
