@@ -11,6 +11,8 @@ class Program
         if (!int.TryParse(Console.ReadLine(), out int seconds) || seconds <= 0)
         {
             Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Invalid number.");
+
 
         }
         {
