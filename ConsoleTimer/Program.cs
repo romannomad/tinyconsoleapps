@@ -18,6 +18,7 @@ class Program
 
         Console.WriteLine();
         Console.WriteLine("Timer started...");
+        Console.WriteLine();
 
 
 
