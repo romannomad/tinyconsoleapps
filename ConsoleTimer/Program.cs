@@ -5,6 +5,9 @@ class Program
 {
     static void Main()
     {
+        Console.Title = "Console Timer";
+
+        Console.Write("Enter seconds to count down: ");
 
     }
 }
