@@ -8,6 +8,13 @@ class Program
         Console.Title = "Console Timer";
 
         Console.Write("Enter seconds to count down: ");
+        if (!int.TryParse(Console.ReadLine(), out int seconds) || seconds <= 0)
+        {
+
+        }
+        {
+
+        }
 
     }
 }
