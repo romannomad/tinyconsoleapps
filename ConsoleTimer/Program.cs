@@ -12,6 +12,8 @@ class Program
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Invalid number.");
+            Console.ResetColor();
+            return;
 
 
         }
