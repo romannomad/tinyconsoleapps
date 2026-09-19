@@ -14,9 +14,13 @@ class Program
             Console.WriteLine("Invalid number.");
             Console.ResetColor();
             return;
-
-
         }
+
+        Console.WriteLine();
+
+
+
+
         {
 
         }
