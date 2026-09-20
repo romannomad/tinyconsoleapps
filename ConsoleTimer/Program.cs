@@ -24,7 +24,8 @@ class Program
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write($"Time left: {i} seconds   ");
-        })
+            Console.ResetColor();
+        }
 
     }
 }
