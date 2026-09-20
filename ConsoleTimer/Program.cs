@@ -27,6 +27,8 @@ class Program
             Console.ResetColor();
 
             Thread.Sleep(1000);
+
+            Console.Write("\r");
         }
 
     }
