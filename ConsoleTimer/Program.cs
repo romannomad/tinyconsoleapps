@@ -23,6 +23,7 @@ class Program
         for (int i = seconds; i >= 0; i--)
         {
             Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write($"Time left: {i} seconds   ");
         })
 
     }
