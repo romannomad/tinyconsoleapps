@@ -31,5 +31,8 @@ class Program
             Console.Write("\r");
         }
 
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.Write("Time's up!");
+
     }
 }
