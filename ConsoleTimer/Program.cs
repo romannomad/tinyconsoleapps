@@ -20,9 +20,6 @@ class Program
         Console.WriteLine("Timer started...");
         Console.WriteLine();
 
-
-
-
         {
 
         }
