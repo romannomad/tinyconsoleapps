@@ -10,7 +10,7 @@ class Program
         Console.WriteLine("Enter time (examples: 1h 20m 30s, 45m, 120s):");
         Console.Write("Time:");
         string input = Console.ReadLine()?.Trim().ToLower();
-        int totalSeconds =
+        int totalSeconds = ParseTime(input);
 
         if (!int.TryParse(Console.ReadLine(), out int seconds) || seconds <= 0)
         {
