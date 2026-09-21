@@ -7,7 +7,8 @@ class Program
     {
         Console.Title = "Console Timer";
 
-        Console.Write("Enter seconds to count down: ");
+        Console.Write("Enter time (examples: 1h 20m 30s, 45m, 120s):");
+
         if (!int.TryParse(Console.ReadLine(), out int seconds) || seconds <= 0)
         {
             Console.ForegroundColor = ConsoleColor.Red;
