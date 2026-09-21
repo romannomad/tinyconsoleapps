@@ -45,5 +45,7 @@ class Program
     {
         int hours = 0, minutes = 0, seconds = 0;
 
+        string[] parts = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
     }
 }
