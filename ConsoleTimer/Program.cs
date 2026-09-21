@@ -47,5 +47,10 @@ class Program
 
         string[] parts = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
+        foreach (var part in parts)
+        {
+
+        }
+
     }
 }
