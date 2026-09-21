@@ -40,4 +40,9 @@ class Program
         Console.ResetColor();
 
     }
+
+    static int ParseTime(string input)
+    {
+
+    }
 }
