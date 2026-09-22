@@ -24,7 +24,7 @@ class Program
         Console.WriteLine("Timer started...");
         Console.WriteLine();
 
-        for (int i = seconds; i >= 0; i--)
+        for (int i = totalSeconds; i >= 0; i--)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write($"Time left: {FormatTime(i)}  ");
