@@ -15,6 +15,9 @@ class Program
         if (totalSeconds <= 0)
         {
             Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Invalid time format. Please enter a valid time.");
+            Console.ResetColor();
+            return;
         }
 
         Console.WriteLine();
