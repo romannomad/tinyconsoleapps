@@ -58,4 +58,6 @@ class Program
         }
         return hours * 3600 + minutes * 60 + seconds;
     }
+
+    static string FormatTime(int totalSeconds)
 }
