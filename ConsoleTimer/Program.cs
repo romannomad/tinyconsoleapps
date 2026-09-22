@@ -8,7 +8,7 @@ class Program
         Console.Title = "Console Timer";
 
         Console.WriteLine("Enter time (examples: 1h 20m 30s, 45m, 120s):");
-        Console.Write("Time:");
+        Console.Write("Time:  ");
         string input = Console.ReadLine()!.Trim().ToLower();
         int totalSeconds = ParseTime(input);
 
