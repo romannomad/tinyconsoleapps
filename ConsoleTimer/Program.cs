@@ -12,6 +12,11 @@ class Program
         string input = Console.ReadLine()!.Trim().ToLower();
         int totalSeconds = ParseTime(input);
 
+        if (totalSeconds <= 0)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+        }
+
         Console.WriteLine();
         Console.WriteLine("Timer started...");
         Console.WriteLine();
