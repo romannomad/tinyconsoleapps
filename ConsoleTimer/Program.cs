@@ -49,6 +49,8 @@ class Program
 
         foreach (var part in parts)
         {
+            if (part.EndsWith("h"))
+                int.TryParse(part.TrimEnd('h'), out hours);
 
         }
 
