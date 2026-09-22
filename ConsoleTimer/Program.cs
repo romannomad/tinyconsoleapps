@@ -67,6 +67,8 @@ class Program
 
         if (h > 0)
             return $"{h}h {m}m {s}s";
+        if (m > 0)
+            return $"{m}m {s}s";
 
     }
 }
