@@ -12,14 +12,6 @@ class Program
         string input = Console.ReadLine()!.Trim().ToLower();
         int totalSeconds = ParseTime(input);
 
-        if (!int.TryParse(Console.ReadLine(), out int seconds) || seconds <= 0)
-        {
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Invalid number.");
-            Console.ResetColor();
-            return;
-        }
-
         Console.WriteLine();
         Console.WriteLine("Timer started...");
         Console.WriteLine();
