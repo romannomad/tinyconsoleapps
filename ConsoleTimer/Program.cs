@@ -64,5 +64,9 @@ class Program
         int h = totalSeconds / 3600;
         int m = (totalSeconds % 3600) / 60;
         int s = totalSeconds % 60;
+
+        if (h > 0)
+            return $"{h}h {m}m {s}s";
+
     }
 }
