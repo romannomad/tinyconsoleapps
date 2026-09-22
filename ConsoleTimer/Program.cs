@@ -60,4 +60,7 @@ class Program
     }
 
     static string FormatTime(int totalSeconds)
+    {
+        int h = totalSeconds / 3600;
+    }
 }
