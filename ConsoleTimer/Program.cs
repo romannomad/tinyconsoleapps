@@ -53,6 +53,9 @@ class Program
                 int.TryParse(part.TrimEnd('h'), out hours);
             else if (part.EndsWith("m"))
                 int.TryParse(part.TrimEnd('m'), out minutes);
+            else if (part.EndsWith("s"))
+                int.TryParse(part.TrimEnd('s'), out seconds);
+
 
         }
 
