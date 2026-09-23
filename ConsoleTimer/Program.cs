@@ -74,6 +74,6 @@ class Program
 
     static string BuildProgressBar(int current, int total, int barLength = 20)
     {
-        double
+        double percent = (double)current / total;
     }
 }
