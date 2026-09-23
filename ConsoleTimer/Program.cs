@@ -27,11 +27,10 @@ class Program
         for (int i = totalSeconds; i >= 0; i--)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write($"Time left: {FormatTime(i)}  ");
+            Console.Write($"Time left: {FormatTime(i)}  {BuildProgressBar(i, totalSeconds)}  ");
             Console.ResetColor();
 
             Thread.Sleep(1000);
-
             Console.Write("\r");
         }
 
