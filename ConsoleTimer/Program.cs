@@ -75,5 +75,7 @@ class Program
     static string BuildProgressBar(int current, int total, int barLength = 20)
     {
         double percent = (double)current / total;
+        int filled = (int)(percent * barLength);
+        int empty = barLength - filled;
     }
 }
