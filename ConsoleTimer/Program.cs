@@ -77,5 +77,7 @@ class Program
         double percent = (double)current / total;
         int filled = (int)(percent * barLength);
         int empty = barLength - filled;
+
+        return $"[{new string('#', filled)}{new string('-', empty)}] {(int)(percent * 100)}%";
     }
 }
