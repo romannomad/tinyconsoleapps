@@ -68,7 +68,6 @@ class Program
             return $"{m}m {s}s";
         return $"{s}s";
     }
-
     static string BuildProgressBar(int current, int total, int barLength = 20)
     {
         double percent = (double)current / total;
