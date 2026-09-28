@@ -38,7 +38,6 @@ class Program
         Console.Write("Time's up!");
         Console.ResetColor();
     }
-
     static int ParseTime(string input)
     {
         int hours = 0, minutes = 0, seconds = 0;
