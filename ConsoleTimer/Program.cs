@@ -37,7 +37,6 @@ class Program
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.Write("Time's up!");
         Console.ResetColor();
-
     }
 
     static int ParseTime(string input)
